@@ -11,4 +11,5 @@
 windows pentru acea data.
 
 Acest script este testat pe Windows 10 Pro si necesita instalat Python 3.13.0 (posibil sa functioneze ok si cu versiuni mai vechi).
+
 ATENTIE !!! Inainte de rularea scriptului asigurati-va ca ati instalat corect pachetele (packages) pentru bibliotecile folosite in script (ex. pywin32 pentru win32evtlog).
