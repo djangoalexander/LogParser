@@ -9,6 +9,11 @@
 
   Scriptul poate fi rulat si direct modificand manual data in lastwritedate.txt; se poate pune orice data mai putin ziua curenta (scriptul nu va rula); orice data este valida atata timp cat sunt inregistrari in logul de 
 windows pentru acea data.
+  Eventualele erori legate de functionare sunt scrise (logate) in fisierul error.txt.
+  Pentru functionarea corecta, este necesar ca urmatoarele fisiere sa fie in acelasi folder:
+    - logparser v.1.6.py (acesta este fisierul care contine scriptul propriuzis)
+    - lastwritedate.txt (acest fisier trebuie sa contina o data valida de forma: yyyy-mm-dd )
+    - error.txt (nu este neaparat necasar deoarece scriptul il creaza oricum automat la logarea unei erori)
 
 Acest script este testat pe Windows 10 Pro si necesita instalat Python 3.13.0 (posibil sa functioneze ok si cu versiuni mai vechi).
 
