@@ -1,0 +1,34 @@
+Loguri din perioada 2024-10-31 00:00:01 până la 2024-10-31 23:59:59
+Logul a fost scris ultima data in fișier la data/ora: 2024-11-01 18:04:25
+Userul logat in momentul rulării scriptului este: django cu SID-ul: S-1-5-21-873681304-3105683584-2012345020-1001
+
+Codul 4624 - (Logon. Acest eveniment indică o autentificare reușită.) - are 205 înregistrări în log.
+Codul 4647 - (Logoff. (evenimentul este generat atunci când un utilizator inițiază în mod explicit procedura de deconectare; Logoff, Restart sau Shutdown)) - are 3 înregistrări în log.
+Codul 4672 - (Acest eveniment indică faptul că un cont a primit drepturi speciale, cum ar fi privilegii administrative.) - are 197 înregistrări în log.
+Codul 4688 - (Creare de nou proces. (oferă detalii despre procesul părinte și cel copil, precum și despre utilizatorul care a inițiat procesul)) - are 22 înregistrări în log.
+Codul 1074 - (Acest eveniment este generat la Shutdown / Restart) - are 3 înregistrări în log.
+Codul 6005 - (Serviciul Event Log a fost pornit.) - are 2 înregistrări în log.
+Codul 6006 - (Serviciul Event Log a fost oprit.) - are 3 înregistrări în log.
+Codul 6013 - (Timpul de funcționare al sistemului. (System uptime)) - are 2 înregistrări în log.
+Codul 7001 - (System Started - Logon) - are 2 înregistrări în log.
+
+ATENTIE!!! Următoarele coduri critice din Security au fost găsite: 4672
+
+Numărul total de logon-uri unice pentru utilizatorul 'django': 3
+Event ID: 4624, Time: 2024-10-31 22:16:36, Task Category: 12544, User: django
+Event ID: 4624, Time: 2024-10-31 17:38:19, Task Category: 12544, User: django
+Event ID: 4624, Time: 2024-10-31 17:32:51, Task Category: 12544, User: django
+
+Numărul total de logoff-uri unice pentru utilizatorul 'django': 3
+Event ID: 4647, Time: 2024-10-31 23:45:43, Task Category: 12545, User: django
+Event ID: 4647, Time: 2024-10-31 20:56:00, Task Category: 12545, User: django
+Event ID: 4647, Time: 2024-10-31 00:11:55, Task Category: 12545, User: django
+
+Numărul total de Power ON-uri: 2
+Event ID: 7001, Time: 2024-10-31 22:16:36, Task Category: 1101, User: S-1-5-21-873681304-3105683584-2012345020-1001
+Event ID: 7001, Time: 2024-10-31 17:38:19, Task Category: 1101, User: S-1-5-21-873681304-3105683584-2012345020-1001
+
+Numărul total de Power OFF-uri: 3
+Event ID: 1074, Time: 2024-10-31 23:45:41, Task Category: 0, User: COMPUTERNAME\django, Tip: power off
+Event ID: 1074, Time: 2024-10-31 20:55:58, Task Category: 0, User: COMPUTERNAME\django, Tip: power off
+Event ID: 1074, Time: 2024-10-31 00:11:52, Task Category: 0, User: COMPUTERNAME\django, Tip: power off
