@@ -7,7 +7,7 @@
 #            Scrie rezultatele într-un fișier .txt
 # Acest script a fost testat pe: Windows 10 Pro, Ver. 22H2
 
-# Noutăți: A șasea versiune operatională, parametri linie de comandă (productive ready code).
+# Noutăți: A șasea versiune operațională, parametri linie de comandă (productive ready code).
 
 import win32evtlog
 from datetime import datetime
